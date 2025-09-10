@@ -18,14 +18,6 @@ Use Nexus Repository as an artifact store
 
 Perform Blue-Green Deployment on Kubernetes with traffic switching
 
-🏗️ Project Architecture
-+-------------------+         +-----------------+         +------------------+
-|   Developer Code  |  --->   |     Jenkins     |  --->   |    Kubernetes    |
-|   (GitHub Repo)   |         | (Build & Deploy)|         |  (Blue/Green Env)|
-+-------------------+         +-----------------+         +------------------+
-        |                             |                            |
-        |   SonarQube (Code Quality)  |   Nexus (Artifacts)        |
-        +-----------------------------+----------------------------+
 
 📌 Prerequisites
 
